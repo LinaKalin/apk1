@@ -1,0 +1,249 @@
+
+.d1 { width:400px;
+      height:250px;
+	  border:2px solid #3CD5FF;
+	  margin:auto;
+	  margin-top:-120px;
+	color:#fff;
+	overflow:auto;
+	font-size:20px;
+	background:rgba(0,0,0,0.5);
+   box-shadow: 8px 12px 65px rgba(40,144,255,0.6);
+	}
+   /* ================== MENU UP ==================*/
+	  
+   .menuup {  
+               position:fixed;
+                   top: -300px; 
+	         width: 470px;
+			 height: 300px;
+                   margin:0% 90% 0% 10%;
+            background: linear-gradient(to top, #000, rgba(40,173,255,0.5));
+         /* background:rgba(0,0,0,0.2);*/
+	 border:1px solid #3CD5FF;
+	 border-radius:48%;
+	    border-top-left-radius:0px;
+	    border-bottom-right-radius:0px;
+		  box-shadow: -22px -18px 65px rgba(15,215,255,0.3);
+	 /* box-shadow: 3px 10px 25px rgba(15,215,255,0.3);*/
+	transition: top 1s ease-out;    /* Анимация */ 
+     }  
+ 
+ .menuup:hover { top: 0; }
+	
+ .menuup::after {
+    content: 'down'; /* Выводим текст  язычка*/
+        position: absolute; /* Абсолютное позиционирование */
+              right:0.5%; /* Положение текста язычка */
+	         top:298;  
+	    font-size:20px;
+	    font-weight:bold;
+	      color:#fff;
+	  border:2px solid #3CD5FF;
+	    border-top-left-radius:30%;
+		border-bottom-right-radius:30%;
+	    padding:0px 3px 0px 3px;
+      box-shadow: 3px 18px 35px rgba(15,215,255,0.3);
+      background-color:transparent; /* цвет язычка*/
+
+     }
+
+	/* ==================содерж верхнего меню */
+
+ .up_cont { /*background-color:rgba(142,22,120,0.5);*/
+           background: linear-gradient(to bottom, #000, rgba(40,173,255,0.2));
+	       border: 2px solid #3CD5FF;
+		      border-radius: 50%;
+		      border-top-left-radius:0px;
+		      border-bottom-right-radius:0px;
+		   box-shadow: 22px 18px 35px rgba(15,215,255,0.3);
+              margin-top: 6px;
+		      margin-left: 35px;
+              padding: 10px;
+           width: 380px;
+		   height:270px;   
+		       text-align: center;}
+		  
+	.upL {position:absolute;
+		top:13px;
+		left:45px;
+		 border:1px solid #3CD5FF;
+		 padding:5px;
+	}
+	.upR {position:absolute;
+		top:80px;
+		left:250px;
+		border:1px solid #3CD5FF;
+	}
+	.up_cont a { color:#3CD5FF;}
+	.up_cont a:hover {color:#fff;
+	               border:1px solid #3CD5FF;
+				   background-color:#000;
+	               padding:1px;}
+  
+/* ================= LEFT MENU ===== */
+
+.feedback { overflow:scroll;
+    
+    width: 400px; /* **** 300+20 *******ЩЧЕНЬ ВАЖНО 300PX  Ширина */
+	height: 700px; /* высота*/ 
+	 background: linear-gradient(to left, #000, rgba(5,78,92,0.6));
+    /* background: rgba(0,0,0,0.8);/* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+   /*min-height: 3000px; /* Минимальная высота */
+    top: 350px; left: -405px; /* **** 300+**** Положение */
+   border:2px solid #3CD5FF ;
+   border-right: 3px solid #3CD5FF; /* ****** 300+20 *********Голубая граница справа */
+	border-radius: 0 30px 30px 0;/*  Скругляем уголки */
+    padding: 5px; /* Поля вокруг */
+    transition: left 1s ease-out; /* Анимация */
+          }
+  
+       
+    .feedback::after {
+    content: ''; /* Выводим текст */
+    color: #fff; /* Цвет надписи */
+    position:absolute; /* Абсолютное позиционирование */
+    left:; top:; /* Положение текста */
+               /* transform: rotate(-90deg); /* Поворачиваем текст */
+	width:0px;
+	text-align:center;
+	padding:4px;
+	border:2px solid #3CD5FF;
+		 border-radius:55%;
+	}
+   .feedback:hover {
+      left: 0;
+	  box-shadow: 15px 25px 55px rgba(15,215,255,0.3);
+      }          /* При наведении сдвигаем вправо */
+           
+   
+
+/* ====== RIGHT MENU ===== */
+
+.feedback2 { overflow:scroll;
+    
+    width: 530px; /* **** 300+20 *******ЩЧЕНЬ ВАЖНО 300PX  Ширина */
+	height: 600px; /* высота*/ 
+	 background: linear-gradient(to right, #000, rgba(5,78,92,0.5));
+    /* background: rgba(0,0,0,0.4); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+  /* min-height: 400px; /* Минимальная высота */
+    top: 330px; right: -537px; /* **** 300+**** Положение */
+    border:2px solid #3CD5FF ;
+	border-left: 3px solid #3CD5FF; /* ****** 300+20 *********Голубая граница справа */
+	border-radius: 20% 20% 0% 0%; /*  Скругляем уголки */
+    /*padding: 5px; /* Поля вокруг */
+	padding-top:80px;
+	padding-left:10px;
+	 /*  box-shadow: -5px 15px 55px rgba(15,215,255,0.3);*/
+    transition: right 1s ease-out; /* Анимация */
+	
+          }
+  
+     .feedback2::after {
+    content: ''; /* Выводим текст */
+    color: #fff; /* Цвет надписи */
+    position: absolute; /* Абсолютное позиционирование */
+    left:; top:; /* Положение текста */
+   /* transform: rotate(-90deg); /* Поворачиваем текст */
+    /*width: 60px;*/
+	text-align:center;
+	font-weight:bold;
+	width:0px;
+	padding:;
+	border:;
+		 border-radius:; 
+
+   }
+   .feedback2:hover {
+   right: 0;   /* При наведении сдвигаем вправо */
+    box-shadow: -10px 25px 55px rgba(15,215,255,0.3);
+   } 
+   /*.feedback2:hover a {background-color:#000;} 
+   /*  при наведнении прозрачный фон изменяется под cылками <a>*/
+   
+  
+  /* ===== параметры ВСЕХ  ссылок === */
+   	a:link {color:#3CD5FF;
+	        font-size:16px;
+			text-decoration:none;
+		
+			}
+    a:hover {background-color:#000;
+        padding: 1px ;
+         color:#fff;
+		 font-size: 16px;
+		border:1px solid #fff;
+		padding:3px;
+		 }
+ 
+
+
+  
+/* ========заголовок категорий меню лев =====*/
+
+.p_menulf {color:#fff;
+           font-size:18px;
+		   text-decoration:underline;
+		  /* font-weight:bold;*/
+		   }
+	
+/*li {color:#000;}	/*убираем маркеры  в меню с категориями*/
+
+.left_ul {margin-top:30px;
+          text-align:center;/*   список левого меню*/
+		  overflow:scroll;
+		  }
+                    
+.right_ul {margin-top:1px;
+           text-align:left; 
+		    margin-left:50px;
+		   /*border:1px solid #ccc;*/
+		   }
+.left_ul a {font-size:38px;}
+.right_ul a {font-size:38px;}
+
+.Rimg1 {   margin-bottom:20px;
+           margin-right:70px;
+		   margin-top:-50px; /* .Rimg отталкивается от.right_ul*/
+            font-size:28px;
+			/* border:1px solid #ccc;*/
+			float:right;
+			}
+#poisk {float:left;}
+#trans {float:left;}
+
+#neon { width:510px;
+        margin-top:60px;
+       margin-left:30px;
+      box-shadow: 8px 12px 65px rgba(40,144,255,0.6);
+      border:1px solid #fff;
+	  }
+
+#hr1G {font-size:42px;
+       color:#fff;}
+#hr1 { text-align:center;
+       height:49px;
+	   width:100%;
+	   border-bottom:1px solid #fff;
+	   border-top-right-radius:10%;
+	  background: linear-gradient(to bottom, #000, rgba(40,173,255,0.2));  
+	box-shadow: 0 18px 55px rgba(15,215,255,0.5);}
+
+/* ============================================================*/
+
+	
+/*  =======  таблица со словами=============*/
+table {
+	margin-top:3%;
+       margin-left:3%;
+	 }
+	 
+
+
+
+
+ 

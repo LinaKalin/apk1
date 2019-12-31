@@ -1,0 +1,220 @@
+
+.d1 { width:400px;
+      height:250px;
+	  border:2px solid #3CD5FF;
+	  margin:auto;
+	  margin-top:-120px;
+	color:#fff;
+	overflow:auto;
+	font-size:20px;
+	background:rgba(0,0,0,0.5);
+   box-shadow: 8px 12px 65px rgba(40,144,255,0.6);
+	}
+  
+
+/* ================= LEFT MENU ===== */
+
+.feedback { overflow:scroll;
+    
+    width: 500px; /* **** 300+20 *******ЩЧЕНЬ ВАЖНО 300PX  Ширина */
+	height: 1100px; /* высота*/ 
+	 background: linear-gradient(to left, #000000, rgba(5,78,92,0.7));
+   /* background: rgba(0,0,0,0.8);/* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+   /*min-height: 3000px; /* Минимальная высота */
+    top: 320px; left: -510px; /* **** 300+**** Положение */
+   border:3px solid #3CD5FF ;
+   border-right: 5px solid #3CD5FF; /* ****** 300+20 *********Голубая граница справа */
+	border-radius: 0 30px 30px 0;/*  Скругляем уголки */
+    padding: 5px; /* Поля вокруг */
+    transition: left 1s ease-out; /* Анимация */
+          }
+  
+	
+   .feedback:hover {
+      left: 0;
+	  box-shadow: 15px 25px 55px rgba(15,215,255,0.3);
+      }          /* При наведении сдвигаем вправо */
+           
+   
+
+/* ====== RIGHT MENU ===== */
+
+.feedback2 { overflow:scroll;
+    
+    width: 530px; /* **** 300+20 *******ЩЧЕНЬ ВАЖНО 300PX  Ширина */
+	height: 1400px; /* высота*/ 
+	 background: linear-gradient(to right, #000, rgba(5,78,92,0.7));
+    /* background: rgba(0,0,0,0.4); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+  /* min-height: 400px; /* Минимальная высота */
+    top: 330px; right: -535px; /* **** 300+**** Положение */
+    border:3px solid #3CD5FF ;
+	border-left: 5px solid #3CD5FF; /* ****** 300+20 *********Голубая граница справа */
+	border-radius: 20% 20% 0% 20%; /*  Скругляем уголки */
+    /*padding: 5px; /* Поля вокруг */
+	padding-top:80px;
+	padding-left:10px;
+	 /*  box-shadow: -5px 15px 55px rgba(15,215,255,0.3);*/
+    transition: right 1s ease-out; /* Анимация */
+	
+          }
+  
+  
+   .feedback2:hover {
+   right: 0;   /* При наведении сдвигаем вправо */
+    box-shadow: -10px 25px 55px rgba(15,215,255,0.3);
+   } 
+ 
+   
+   
+  
+  /* ===== параметры ВСЕХ  ссылок === */
+   	a:link {color:#3CD5FF;
+	        font-size:16px;
+			text-decoration:none;
+		
+			}
+    a:hover {background-color:#000;
+        padding: 1px ;
+         color:#fff;
+		 font-size: 16px;
+		border:1px solid #fff;
+		padding:3px;
+		 }
+
+/* ==== Div stranits  -----------------------=========== ==== */
+	
+.Vac {width:600px; 
+     height:1360px;
+	  margin-left:120px;
+	  margin-top:30px;
+	  margin-bottom:50px;
+     border: 2px solid #A0E4FF; 
+	 border-bottom-left-radius:15%;
+	  border-bottom-right-radius:15%;
+	  box-shadow: 0 28px 65px rgba(15,215,255,0.3);
+	   background: linear-gradient(to top, rgba(40,144,255,0.2), #000);
+     
+}
+.grad { 
+    background: linear-gradient(to top, #219597, rgba(0,0,0,0.3));
+           text-align:center;
+	color:#fff;
+	font-size:28px;
+	font-weight:bold;
+	width:70%;
+	height:40px;
+	border:2px solid #A0E4FF;
+	 border-bottom-left-radius:80%;
+	  border-bottom-right-radius:80%;
+	margin-top:0;
+	padding: 10px;
+	box-shadow: 0 18px 25px rgba(15,215,255,0.3);
+	}
+.soderj a {
+	font-size:42px;
+	width:100%;
+	height:40%;
+	line-height:60px;
+    }
+.soderj {margin-top:70px;}
+  
+/* ========заголовок категорий меню лев =====*/
+
+.p_menulf {color:#fff;
+           font-size:22px;
+		   text-decoration:underline;
+		  /* font-weight:bold;*/
+		   }
+	
+
+.left_ul {margin-top:30px;
+          text-align:center;/*   список левого меню*/
+		  /*overflow:scroll;}*/
+          }          
+.right_ul {margin-top:1px;
+           margin-left:50px;
+           text-align:left; 
+		  /* border:2px solid #fff;*/
+		   }
+.left_ul a {font-size:38px;
+              line-height:55px;
+            }
+.right_ul a {font-size:38px;
+              line-height:55px;}
+
+/* нщгегиу шсщт  */
+.Rimg1 {   margin-bottom:20px;
+           margin-right:70px;
+		   margin-top:-50px; /* .Rimg отталкивается от.right_ul*/
+            font-size:28px;
+			/* border:1px solid #ccc;*/
+			float:right;
+			}
+
+
+/*  ГЛАВНАЯ  на левом меню*/
+#hr1G {font-size:42px;
+       color:#fff;}
+#hr1 { 
+       text-align:center;
+       height:59px;
+	   width:100%;
+	   border-bottom:1px solid #fff;
+	   border-top-right-radius:10%;
+	  background: linear-gradient(to bottom, #000, rgba(40,173,255,0.2));  
+	box-shadow: 0 18px 55px rgba(15,215,255,0.5);}
+
+/* ============================================================*/
+
+	
+/*  =======  таблица со словами=============*/
+table {
+	margin-top:3%;
+       margin-left:3%;
+	 }
+	 
+
+	 
+/* ======= КНОПКА ВВЕРХ ========= */	 
+		
+.btn_up {
+	          color:#fff;
+              font-size:20px;
+             font-weight:bold;
+	   position:fixed;      
+        bottom:90px;
+		right:50px;
+		width:70px;
+		height:70px;
+		border-radius:50%;
+		border: 2px solid #64D3FF;
+		background:transparent;
+		 box-shadow: 18px 22px 65px rgba(40,144,255,0.6);
+		z-index:100;
+		outline: 0!important;
+		}
+
+.btn_up:hover {color:#000;
+             font-size:20px;
+             font-weight:bold;
+			 	width:65px;
+		        height:65px;
+		border: 2px solid #000;
+		background:#64D3FF;
+		box-shadow: 0 22px 55px rgba(15,215,255,0.6);
+	
+}
+	
+	
+		 
+
+   
+   
+
+
+
+ 
