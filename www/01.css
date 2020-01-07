@@ -1,0 +1,7 @@
+.kr {
+	transition:scaleX 2s ease 0.5;
+	
+}
+.kr:hover { transform:scaleX(-1);
+	
+}
