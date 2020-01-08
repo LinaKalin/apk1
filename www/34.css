@@ -20,7 +20,8 @@
 
 /* ==== Div stranits  -----------------------=========== ==== */
 	
-.Vac {width:550px; 
+.Vac {overflow:scroll;
+	width:550px; 
      height:930px;
 	  margin-left:10px;
 	  margin-top:5px;
